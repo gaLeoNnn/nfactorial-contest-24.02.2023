@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #130125;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.wrapper {
+  max-width: 1300px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  min-height: 100%;
+  padding: 10px 10px;
+  color: white;
+}
+.header-inner {
+  padding-top: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: white;
+}
+.menu__list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+}
+.menu__links {
+  margin-left: 32px;
+  color: white;
+}
+.introduce {
+  padding-top: 160px;
+}
+.introduce__title {
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 32px;
+}
+.introduce__text {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.introduce__btn {
+  padding: 16px 24px;
+  background-color: #fd5a14;
+  color: white;
+}
+.about {
+  padding-top: 280px;
+  width: 629px;
+}
+.about__inner {
+  display: flex;
+}
+.column__title {
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+.column__text {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  width: 629px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.column__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__first {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.column__img {
+  margin-left: 191px;
+  border: 3px solid #fd5a14;
+}
+.item__text_img {
+  margin-right: 10px;
+}
+.item__text {
+  margin-bottom: 24px;
+}
+.experience {
+  max-width: 630px;
+  margin-top: 300px;
+}
+.experience__column {
+  font-family: "Inter";
+  display: flex;
+}
+.experience__title {
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 60px;
+  line-height: 72px;
+}
+.first__date {
+  width: 143px;
+  margin-right: 50px;
+}
+.first__little-text {
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+.newText {
+  margin-bottom: 48px;
+}
+.projects {
+  margin-top: 320px;
+}
+.projects__title {
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 140px;
+}
+.projects__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.projects__image {
+  margin-bottom: 100px;
+  width: 600px;
+}
+.project__title {
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  margin-bottom: 30px;
+}
+.project__text {
+  margin-bottom: 30px;
+  width: 450px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+.projects__image2 {
+  width: 600px;
+  margin-top: 100px;
+}
+
+.projects__column {
+}
+.newDiv {
+  margin-left: 100px;
+}
+.project__littletext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+.hello {
+  padding-top: 300px;
+}
+.hello__title {
+  font-family: "Courier New";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 30px;
+  line-height: 72px;
+}
+.hello__text {
+  margin-bottom: 30px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+.hello__btn {
+  background-color: #fd5a14;
+
+  padding: 16px 24px;
+}
+.hello__link {
+  color: white;
+}
+.footer {
+  padding-top: 200px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.footer__image {
+}
+.footer__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
+  opacity: 0.5;
+}
