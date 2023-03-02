@@ -31,6 +31,7 @@ aside {
 
 html,
 body {
+  scroll-behavior: smooth;
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -39,7 +40,8 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: #130125;
+  /* background-color: #130125; */
+  background-color: #00337c;
 }
 
 input,
@@ -91,19 +93,31 @@ h6 {
 /*--------------------*/
 .wrapper {
   max-width: 1300px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   margin: 0 auto;
   min-height: 100%;
   padding: 10px 10px;
   color: white;
 }
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  /* background-color: #120125; */
+  background-color: #13005a;
+}
 .header-inner {
   padding-top: 30px;
   align-items: center;
+  height: 80px;
   display: flex;
+
+  margin-left: 80px;
+  margin-right: 40px;
   justify-content: space-between;
 }
 .logo {
+  align-items: center;
   font-family: "Courier New";
   font-style: normal;
   font-weight: 700;
@@ -111,8 +125,10 @@ h6 {
   line-height: 36px;
   text-transform: capitalize;
   color: white;
+  margin-bottom: 30px;
 }
 .menu__list {
+  margin-bottom: 30px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -141,12 +157,13 @@ h6 {
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 32px;
+  margin-bottom: 100px;
 }
 .introduce__btn {
   padding: 16px 24px;
-  background-color: #fd5a14;
+  background-color: #b3b6ef;
   color: white;
+  border-radius: 10px;
 }
 .about {
   padding-top: 280px;
@@ -185,8 +202,10 @@ h6 {
   line-height: 22px;
 }
 .column__img {
-  margin-left: 191px;
-  border: 3px solid #fd5a14;
+  margin-left: 300px;
+  width: 300px;
+  height: 330px;
+  border: 3px solid #c8c8e1;
 }
 .item__text_img {
   margin-right: 10px;
@@ -211,7 +230,6 @@ h6 {
   line-height: 72px;
 }
 .first__date {
-  width: 143px;
   margin-right: 50px;
 }
 .first__little-text {
@@ -233,12 +251,11 @@ h6 {
   margin-bottom: 140px;
 }
 .projects__inner {
-  display: flex;
   justify-content: space-between;
 }
 .projects__image {
   margin-bottom: 100px;
-  width: 600px;
+  width: 700px;
 }
 .project__title {
   font-family: "Courier New";
@@ -288,7 +305,7 @@ h6 {
   line-height: 72px;
 }
 .hello__text {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   font-family: "Kanit";
   font-style: normal;
   font-weight: 300;
@@ -302,6 +319,10 @@ h6 {
 }
 .hello__link {
   color: white;
+  padding: 16px 24px;
+  background-color: #b3b6ef;
+  color: white;
+  border-radius: 10px;
 }
 .footer {
   padding-top: 200px;
@@ -323,4 +344,27 @@ h6 {
   color: #ffffff;
 
   opacity: 0.5;
+}
+.divider {
+  border-top: 1px solid #bbb;
+}
+.buttons {
+  display: flex;
+  margin-bottom: 30px;
+}
+.active {
+  font-family: "Courier New";
+  font-size: 16px;
+  color: #3795bd;
+  font-weight: 800;
+}
+.button__item {
+  cursor: pointer;
+  font-family: "Courier New";
+  font-size: 16px;
+  padding: 15px 26px;
+}
+.my_projectsMo {
+  justify-content: space-between;
+  display: flex;
 }
