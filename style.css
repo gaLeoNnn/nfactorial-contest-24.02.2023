@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -130,7 +132,7 @@ h6 {
 }
 .menu__list {
   margin-bottom: 30px;
-  font-family: "Inter";
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -140,6 +142,7 @@ h6 {
 .menu__links {
   margin-left: 32px;
   color: #9ea2b1;
+  font-family: "Inter", sans-serif;
 }
 .menu__links:hover {
   color: white;
@@ -168,6 +171,7 @@ h6 {
   background-color: #b3b6ef;
   color: white;
   border-radius: 10px;
+  font-family: "Inter", sans-serif;
 }
 .introduce__btn:hover {
   transform: skew(-10deg);
@@ -252,6 +256,8 @@ h6 {
 .first__little-text {
   margin-left: 25px;
   margin-bottom: 30px;
+}
+.first__text__img img {
 }
 .newText {
   margin-bottom: 48px;
@@ -340,8 +346,6 @@ h6 {
   line-height: 30px;
 }
 .hello__btn {
-  background-color: #fd5a14;
-
   padding: 16px 24px;
 }
 .hello__link {
