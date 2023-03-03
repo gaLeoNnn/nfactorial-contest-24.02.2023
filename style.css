@@ -41,7 +41,8 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   /* background-color: #130125; */
-  background-color: #00337c;
+  /* background-color: #00337c; */
+  background-color: #2d313a;
 }
 
 input,
@@ -104,7 +105,7 @@ h6 {
   width: 100%;
   z-index: 2;
   /* background-color: #120125; */
-  background-color: #13005a;
+  background-color: #22252d;
 }
 .header-inner {
   padding-top: 30px;
@@ -138,6 +139,9 @@ h6 {
 }
 .menu__links {
   margin-left: 32px;
+  color: #9ea2b1;
+}
+.menu__links:hover {
   color: white;
 }
 .introduce {
