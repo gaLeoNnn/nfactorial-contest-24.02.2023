@@ -165,9 +165,17 @@ h6 {
   color: white;
   border-radius: 10px;
 }
+.introduce__btn:hover {
+  transform: skew(-10deg);
+}
 .about {
+  opacity: 0.5;
   padding-top: 280px;
   width: 629px;
+}
+.about:hover {
+  transition: 1s;
+  opacity: 1;
 }
 .about__inner {
   display: flex;
@@ -214,8 +222,13 @@ h6 {
   margin-bottom: 24px;
 }
 .experience {
-  max-width: 630px;
+  opacity: 0.5;
+  padding-bottom: 200px;
   margin-top: 300px;
+}
+.experience:hover {
+  transition: 1s;
+  opacity: 1;
 }
 .experience__column {
   font-family: "Inter";
@@ -240,7 +253,11 @@ h6 {
   margin-bottom: 48px;
 }
 .projects {
-  margin-top: 320px;
+  opacity: 0.5;
+}
+.projects:hover {
+  transition: 1s;
+  opacity: 1;
 }
 .projects__title {
   font-family: "Courier New";
@@ -295,7 +312,13 @@ h6 {
 
 .hello {
   padding-top: 300px;
+  opacity: 0.5;
 }
+.hello:hover {
+  transition: 1s;
+  opacity: 1;
+}
+
 .hello__title {
   font-family: "Courier New";
   font-style: normal;
@@ -318,12 +341,22 @@ h6 {
   padding: 16px 24px;
 }
 .hello__link {
-  color: white;
-  padding: 16px 24px;
-  background-color: #b3b6ef;
-  color: white;
-  border-radius: 10px;
 }
+.hello__img {
+  margin-right: 30px;
+  display: inline-block;
+
+  /* overflow: hidden; */
+}
+.hello__img img {
+  max-width: 60px;
+  transition: 0.5s;
+  display: block;
+}
+.hello__img img:hover {
+  transform: scale(1.2);
+}
+
 .footer {
   padding-top: 200px;
 }
